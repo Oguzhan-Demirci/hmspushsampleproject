@@ -1,0 +1,30 @@
+{
+	"agcgw":{
+		"backurl":"connect-dre.dbankcloud.cn",
+		"url":"connect-dre.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"5190090000025507912",
+		"product_id":"736430079244603900",
+		"client_id":"431340764656567296",
+		"client_secret":"ACD24540C20F5BCB916B33DC15ECE5E1F2CCFBA5A9C8BFBA3C3B14420FEF82CA",
+		"app_id":"102748463",
+		"package_name":"com.hmspushsampleproject",
+		"api_key":"CgB6e3x9fcnM9O0E8u4WiSirFQLVK/+6zkTZDj8tXlJ1Z7Z/GMeTwMPG+jyepP/lvrnAtDOBezweMFHS/6fsLmoO"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://ops-dre.agcstorage.link"
+		},
+		"ml":{
+			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"
+		}
+	},
+	"region":"DE",
+	"configuration_version":"1.0"
+}

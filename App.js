@@ -9,7 +9,6 @@ export default class App extends Component {
   }
 
 getMessage = () => {
-    
 		NativeModules.RNHmsInstanceId.getToken((retcode, token) => {
 				let msg = '';
 				
@@ -23,22 +22,7 @@ getMessage = () => {
 				this.setState ({ message: msg });
 							
 			});
-			
-		
-			
-		
 	};
-	
-	/*
-	const eventTokenEmitter = new NativeEventEmitter(NativeModules.ToastExample);
-	this.listenerToken = eventTokenEmitter.addListener(
-	'PushTokenReceiverEvent',
-	event => {
-		const msg = 'received token:' + event.token + '\n';
-	},);
-	*/
-  
-  
 
   render() {
     return (
